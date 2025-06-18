@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:elevation="4dp"
+    android:layout_marginBottom="10dp">
+
+    <ImageView
+        android:id="@+id/snackImage"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/chips" />
+
+    <TextView
+        android:id="@+id/snackName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Snack Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="6dp" />
+
+    <TextView
+        android:id="@+id/snackPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹ Price"
+        android:layout_marginTop="2dp" />
+
+    <Button
+        android:id="@+id/addToCartBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add to Cart"
+        android:layout_marginTop="8dp"/>
+
+
+</LinearLayout>
